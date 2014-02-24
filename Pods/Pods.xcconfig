@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/FMDB" "${PODS_ROOT}/Headers/GRMustache" "${PODS_ROOT}/Headers/JRSwizzle" "${PODS_ROOT}/Headers/Mapbox" "${PODS_ROOT}/Headers/SMCalloutView"
+LIBRARY_SEARCH_PATHS = "${PODS_ROOT}/Mapbox/Proj4"
+OTHER_LDFLAGS = -ObjC -lProj4 -lsqlite3 -lz -framework CoreGraphics -framework CoreLocation -framework Foundation -framework QuartzCore -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods
