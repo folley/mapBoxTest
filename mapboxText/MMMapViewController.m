@@ -32,9 +32,8 @@
                                                                 self.view.frame.size.width,
                                                                 self.view.frame.size.height)];
     self.mapView.delegate = self;
-    self.mapView.zoom = 1;
-    self.mapView.maxZoom = 2;
-    self.mapView.minZoom = 3;
+    self.mapView.maxZoom = 18;
+    self.mapView.minZoom = 0;
     
     [self _setupAndAddMapOnlineSource];
     [self _setupAndAddMapOfflineSources];
@@ -51,17 +50,17 @@
 - (void)_setupAndAddMapOfflineSources
 {
     // add first source
-    RMMBTilesSource *washingtonSource = [[RMMBTilesSource alloc] initWithTileSetResource:@"washington"
-                                                                             ofType:@"mbtiles"];
-    washingtonSource.maxZoom = 8.0;
-    washingtonSource.minZoom = 0.0;
+    RMMBTilesSource *washingtonSource = [[RMMBTilesSource alloc] initWithTileSetResource:@"wTest1"
+                                                                                  ofType:@"mbtiles"];
+    washingtonSource.maxZoom = 18.0;
+    washingtonSource.minZoom = 16.0;
     [self.mapView addTileSource:washingtonSource];
     
     // add second source
-    RMMBTilesSource *englandSource = [[RMMBTilesSource alloc] initWithTileSetResource:@"england"
-                                                                              ofType:@"mbtiles"];
-    englandSource.maxZoom = 8.0;
-    englandSource.minZoom = 7.0;
+    RMMBTilesSource *englandSource = [[RMMBTilesSource alloc] initWithTileSetResource:@"wTest2"
+                                                                               ofType:@"mbtiles"];
+    englandSource.maxZoom = 18.0;
+    englandSource.minZoom = 16.0;
     [self.mapView addTileSource:englandSource];
 }
 

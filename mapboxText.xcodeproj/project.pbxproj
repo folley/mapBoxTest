@@ -24,8 +24,8 @@
 		E62AC47B18BB99F60091A1AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E62AC47918BB99F60091A1AE /* InfoPlist.strings */; };
 		E62AC47D18BB99F60091A1AE /* mapboxTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E62AC47C18BB99F60091A1AE /* mapboxTextTests.m */; };
 		E62AC48B18BB9CFE0091A1AE /* MMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62AC48A18BB9CFE0091A1AE /* MMMapViewController.m */; };
-		E62AC48E18BBA81A0091A1AE /* washington.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = E62AC48D18BBA81A0091A1AE /* washington.mbtiles */; };
-		E62AC49018BBA8400091A1AE /* england.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = E62AC48F18BBA8400091A1AE /* england.mbtiles */; };
+		E62AC49318BBAC390091A1AE /* wTest1.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = E62AC49118BBAC390091A1AE /* wTest1.mbtiles */; };
+		E62AC49418BBAC390091A1AE /* wTest2.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = E62AC49218BBAC390091A1AE /* wTest2.mbtiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,8 @@
 		E62AC47C18BB99F60091A1AE /* mapboxTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapboxTextTests.m; sourceTree = "<group>"; };
 		E62AC48918BB9CFE0091A1AE /* MMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMapViewController.h; sourceTree = "<group>"; };
 		E62AC48A18BB9CFE0091A1AE /* MMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMapViewController.m; sourceTree = "<group>"; };
-		E62AC48D18BBA81A0091A1AE /* washington.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = washington.mbtiles; sourceTree = "<group>"; };
-		E62AC48F18BBA8400091A1AE /* england.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = england.mbtiles; sourceTree = "<group>"; };
+		E62AC49118BBAC390091A1AE /* wTest1.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = wTest1.mbtiles; sourceTree = "<group>"; };
+		E62AC49218BBAC390091A1AE /* wTest2.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = wTest2.mbtiles; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +172,8 @@
 		E62AC48C18BBA8100091A1AE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E62AC48F18BBA8400091A1AE /* england.mbtiles */,
-				E62AC48D18BBA81A0091A1AE /* washington.mbtiles */,
+				E62AC49118BBAC390091A1AE /* wTest1.mbtiles */,
+				E62AC49218BBAC390091A1AE /* wTest2.mbtiles */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -256,10 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62AC48E18BBA81A0091A1AE /* washington.mbtiles in Resources */,
 				E62AC45E18BB99F60091A1AE /* InfoPlist.strings in Resources */,
-				E62AC49018BBA8400091A1AE /* england.mbtiles in Resources */,
+				E62AC49418BBAC390091A1AE /* wTest2.mbtiles in Resources */,
 				E62AC46918BB99F60091A1AE /* Images.xcassets in Resources */,
+				E62AC49318BBAC390091A1AE /* wTest1.mbtiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
